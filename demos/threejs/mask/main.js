@@ -134,7 +134,7 @@ function init_threeScene(spec){
       whiskersMat, tigerEyesMat, tigerFaceSkinMat, insideEarsMat
       ]);
     tigerMaskMesh.scale.set(2,3,2);
-    tigerMaskMesh.position.set(0.08, 0.23, -0.48);
+    tigerMaskMesh.position.set(0., 0.23, -0.48);
 
     // small black quad to hide inside the mouth
     // (visible only if the user opens the mouth)
